@@ -3,9 +3,23 @@ import { Word } from "../types/Word";
 
 import Button from "../components/Button";
 import HeroExperience from "../components/HeroModels/HeroExperience";
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
 
 const Hero = () => {
-  console.log(words[0].imgPath);
+  /**
+   * GSAP animation for the hero section
+   * y: change in why position gives the effect of moving in from the bottom
+   * opacity: 0 to 1 gives the effect of fading in
+   * stagger: delay between each element in the animation
+   */
+  useGSAP(() => {
+    gsap.fromTo(
+      ".hero-text h1",
+      { y: 50, opacity: 0 }, 
+      { y: 0, opacity: 1, stagger: 0.2, duraction: 0.5, ease: "power2.inOut" }
+    );
+  });
 
   return (
     <section id="hero" className="relative overflow-hidden">
@@ -57,11 +71,9 @@ const Hero = () => {
         {/* RIGHT SIDE: 3d model */}
         <figure>
           <div className="hero-3d-layout">
-              <HeroExperience />
+            <HeroExperience />
           </div>
         </figure>
-
-        
       </div>
     </section>
   );

@@ -2,6 +2,7 @@ import { words } from "../constants/";
 import { Word } from "../types/Word";
 
 import Button from "../components/Button";
+import HeroExperience from "../components/HeroModels/HeroExperience";
 
 const Hero = () => {
   console.log(words[0].imgPath);
@@ -54,6 +55,13 @@ const Hero = () => {
         </header>
 
         {/* RIGHT SIDE: 3d model */}
+        <figure>
+          <div className="hero-3d-layout">
+              <HeroExperience />
+          </div>
+        </figure>
+
+        
       </div>
     </section>
   );

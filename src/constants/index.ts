@@ -7,6 +7,9 @@ import { TechStackIcon } from "../types/TechStackIcon";
 import { ExperienceCard } from "../types/ExperienceCard";
 import { Testimonial } from "../types/Testimonial";
 
+const mobileScreenSize = 768; // px
+const tabletScreenSize = 1024; // px
+
 const navLinks: NavLink[] = [
 	{
 		name: "Work",
@@ -272,7 +275,6 @@ const socialImgs: Image[] = [
 	},
 ];
 
-
 export {
 	words,
 	navLinks,
@@ -284,5 +286,7 @@ export {
 	expCards,
 	expLogos,
 	testimonials,
-	socialImgs
+	socialImgs,
+	mobileScreenSize,
+	tabletScreenSize,
 }

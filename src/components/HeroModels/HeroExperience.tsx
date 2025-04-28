@@ -3,7 +3,7 @@ import { Canvas } from "@react-three/fiber";
 import { useMediaQuery } from "react-responsive";
 import { mobileScreenSize, tabletScreenSize } from "../../constants";
 import { Room } from "./Room";
-import Hero from "../../sections/hero";
+import Hero from "../../sections/Hero";
 import HeroLights from "./HeroLights";
 
 const HeroExperience = () => {

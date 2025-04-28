@@ -1,4 +1,4 @@
-import { words } from "../constants/";
+import { words } from "../constants";
 import { Word } from "../types/Word";
 
 import Button from "../components/Button";

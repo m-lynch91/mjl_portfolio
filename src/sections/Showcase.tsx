@@ -66,6 +66,8 @@ const Showcase = () => {
             <div className="project">
               <div className="images-wrapper bg-[#ffefdb]">
                 <img src="/images/project2.png" alt="Project 2" />
+              </div>
+              <div className="text-wrapper">
                 <h2>Project 2 - Small Description</h2>
               </div>
             </div>
@@ -73,6 +75,8 @@ const Showcase = () => {
             <div className="project" ref={project3Ref}>
               <div className="images-wrapper bg-[#ffe7eb]">
                 <img src="/images/project3.png" alt="Project 3" />
+              </div>
+              <div className="text-wrapper">
                 <h2>Project 3 - Small Description</h2>
               </div>
             </div>

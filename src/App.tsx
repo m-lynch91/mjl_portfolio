@@ -1,4 +1,5 @@
 import Navbar from "./components/Navbar"
+import FeatureCards from "./sections/FeatureCards"
 import Hero from "./sections/hero"
 import Showcase from "./sections/Showcase"
 
@@ -8,6 +9,7 @@ const App = () => {
             <Navbar/>
             <Hero/>
             <Showcase/>
+            <FeatureCards/>
         </>
     )
 }

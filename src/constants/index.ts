@@ -3,7 +3,6 @@ import { CounterItem } from "../types/CounterItem";
 import { NavLink } from "../types/NavLink";
 import { Word } from "../types/Word"
 import { Image } from "../types/Image"
-import { TechStackIcon } from "../types/TechStackIcon";
 import { ExperienceCard } from "../types/ExperienceCard";
 import { Testimonial } from "../types/Testimonial";
 
@@ -102,58 +101,26 @@ const abilities: Ability[] = [
 
 const techStackImgs: Image[] = [
 	{
-		name: "React Developer",
+		name: "React",
 		imgPath: "/images/logos/react.png",
 	},
 	{
-		name: "Python Developer",
-		imgPath: "/images/logos/python.svg",
+		name: "JavaScript",
+		imgPath: "/images/logos/javascript.png",
 	},
 	{
-		name: "Backend Developer",
-		imgPath: "/images/logos/node.png",
+		name: "Java",
+		imgPath: "/images/logos/java.png",
 	},
 	{
-		name: "Interactive Developer",
-		imgPath: "/images/logos/three.png",
+		name: "Spring Boot",
+		imgPath: "/images/logos/springboot.png",
 	},
 	{
-		name: "Project Manager",
-		imgPath: "/images/logos/git.svg",
+		name: "PostgresSQL",
+		imgPath: "/images/logos/postgres.png",
 	},
-]
 
-const techStackIcons: TechStackIcon[] = [
-	{
-		name: "React Developer",
-		modelPath: "/models/react_logo-transformed.glb",
-		scale: 1,
-		rotation: [0, 0, 0],
-	},
-	{
-		name: "Python Developer",
-		modelPath: "/models/python-transformed.glb",
-		scale: 0.8,
-		rotation: [0, 0, 0],
-	},
-	{
-		name: "Backend Developer",
-		modelPath: "/models/node-transformed.glb",
-		scale: 5,
-		rotation: [0, -Math.PI / 2, 0],
-	},
-	{
-		name: "Interactive Developer",
-		modelPath: "/models/three.js-transformed.glb",
-		scale: 0.05,
-		rotation: [0, 0, 0],
-	},
-	{
-		name: "Project Manager",
-		modelPath: "/models/git-svg-transformed.glb",
-		scale: 0.05,
-		rotation: [0, -Math.PI / 4, 0],
-	},
 ]
 
 const expCards: ExperienceCard[] = [
@@ -279,7 +246,6 @@ export {
 	logoIconsList,
 	abilities,
 	techStackImgs,
-	techStackIcons,
 	expCards,
 	expLogos,
 	testimonials,

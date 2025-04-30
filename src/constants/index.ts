@@ -3,7 +3,6 @@ import { CounterItem } from "../types/CounterItem";
 import { NavLink } from "../types/NavLink";
 import { Word } from "../types/Word"
 import { Image } from "../types/Image"
-import { TechStackIcon } from "../types/TechStackIcon";
 import { ExperienceCard } from "../types/ExperienceCard";
 import { Testimonial } from "../types/Testimonial";
 

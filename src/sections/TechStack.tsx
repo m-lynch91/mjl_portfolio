@@ -1,5 +1,6 @@
+import TechIcon from "../components/models/TechIcon";
 import TitleHeader from "../components/TitleHeader";
-import { techStackIcons } from "../constants";
+import { techStackImgs } from "../constants";
 
 const TechStack = () => {
   return (
@@ -11,16 +12,16 @@ const TechStack = () => {
         />
 
         <div className="tech-grid">
-          {techStackIcons.map((icon) => (
+          {techStackImgs.map((icon) => (
             <div
               key={icon.name}
-              className="card-border tech-card overflow-hidden group xl:rounded-full rounded-lg"
+              className="card-border tech-card overflow-hidden group xl:rounded-full rounded-sm"
             >
-              <div className="tech-card-animated-bg"/>
               <div className="tech-card-content">
                 <div className="tech-icon-wrapper">
-                    
+                  <img src={icon.imgPath} />
                 </div>
+                <p>{icon.name}</p>
               </div>
             </div>
           ))}

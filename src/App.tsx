@@ -3,6 +3,7 @@ import Experience from "./sections/Experience"
 import FeatureCards from "./sections/FeatureCards"
 import Hero from "./sections/hero"
 import Showcase from "./sections/Showcase"
+import TechStack from "./sections/TechStack"
 
 const App = () => {
     return (
@@ -12,6 +13,7 @@ const App = () => {
             <Showcase/>
             <FeatureCards/>
             <Experience/>
+            <TechStack/>
         </>
     )
 }

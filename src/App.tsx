@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar"
+import Experience from "./sections/Experience"
 import FeatureCards from "./sections/FeatureCards"
-import Hero from "./sections/hero"
+import Hero from "./sections/Hero"
 import Showcase from "./sections/Showcase"
 
 const App = () => {
@@ -10,6 +11,7 @@ const App = () => {
             <Hero/>
             <Showcase/>
             <FeatureCards/>
+            <Experience/>
         </>
     )
 }

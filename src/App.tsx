@@ -10,8 +10,8 @@ const App = () => {
         <>
             <Navbar/>
             <Hero/>
-            <Showcase/>
             <FeatureCards/>
+            <Showcase/>
             <Experience/>
             <TechStack/>
             

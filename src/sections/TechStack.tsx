@@ -1,4 +1,3 @@
-import TechIcon from "../components/models/TechIcon";
 import TitleHeader from "../components/TitleHeader";
 import { techStackImgs } from "../constants";
 

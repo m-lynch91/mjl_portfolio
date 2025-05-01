@@ -16,7 +16,7 @@ const Hero = () => {
   useGSAP(() => {
     gsap.fromTo(
       ".hero-text h1",
-      { y: 50, opacity: 0 }, 
+      { y: 50, opacity: 0 },
       { y: 0, opacity: 1, stagger: 0.2, duraction: 0.5, ease: "power2.inOut" }
     );
   });
@@ -56,8 +56,8 @@ const Hero = () => {
             </div>
 
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              Hey! I'm Mike, a software developer based in Toronto, with a
-              passion for web development!
+              Hey! I'm Micheal, a software developer based in Toronto, with over
+              2 years of experience developing enterprise web applications.
             </p>
 
             <Button
@@ -69,11 +69,9 @@ const Hero = () => {
         </header>
 
         {/* RIGHT SIDE: */}
-
       </div>
-      
-      <AnimmatedCounter />
 
+      {/* <AnimmatedCounter /> */}
     </section>
   );
 };

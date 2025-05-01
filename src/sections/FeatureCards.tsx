@@ -6,7 +6,7 @@ import { abilities } from "../constants";
  */
 const FeatureCards = () => {
   return (
-    <div className="w-full padding-g-lg">
+    <div className="w-full padding-g-lg pt-10">
       <div className="mx-auto grid-3-cols">
         {/* TODO: go in and change the constants values to something more suitable to you */}
         {abilities.map((item) => (

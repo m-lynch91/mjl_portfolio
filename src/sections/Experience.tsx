@@ -18,14 +18,14 @@ const Experience = () => {
         ease: "power2.inOut",
         scrollTrigger: {
           trigger: card,
-          start: "top 80%",
+          start: "top 90%",
         },
       });
     });
 
     gsap.to(".timeline", {
       transformOrigin: "bottom bottom",
-      ease: "power1.inOut",
+      ease: "power2.inOut",
       scrollTrigger: {
         trigger: ".timeline",
         start: "top center",

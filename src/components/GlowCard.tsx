@@ -3,11 +3,11 @@ import { ExperienceCard } from "../types/ExperienceCard";
 
 // allow child elements
 interface GCProps extends PropsWithChildren {
-  card: ExperienceCard;
+  review: string;
   index: number;
 }
 
-const GlowCard: React.FC<GCProps> = ({ card, children, index }) => {
+const GlowCard: React.FC<GCProps> = ({ review, index, children }) => {
   // store references to DOM elements
   const cardRefs = useRef<(HTMLDivElement | null)[]>([]);
 
@@ -49,7 +49,7 @@ const GlowCard: React.FC<GCProps> = ({ card, children, index }) => {
       }}
 
       onMouseMove={handleMouseMovement(index)}
-      className="card card-border timeline-card rounded-xl p-10"
+      className="card card-border timeline-card rounded-xl p-10 mb-5 break-inside-avoid-column"
     >
       <div className="glow" />
       
@@ -62,7 +62,7 @@ const GlowCard: React.FC<GCProps> = ({ card, children, index }) => {
 
       {/** review text section */}
       <div className="mb-5">
-        <p className="text-white-50 text-lg">{card.review}</p>
+        <p className="text-white-50 text-lg">{review}</p>
       </div>
       {children}
     </div>

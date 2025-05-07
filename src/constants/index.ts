@@ -40,9 +40,9 @@ const words: Word[] = [
 ];
 
 const counterItems: CounterItem[] = [
-	{ value: 2, suffix: "+", label: "Years of Experience" },
-	{ value: 200, suffix: "+", label: "Satisfied Clients" },
-	{ value: 2, suffix: "+", label: "Completed Projects" },
+	{ value: 2, suffix: "+", label: "Years of Software Development Experience" },
+	{ value: 5, suffix: "+", label: "Enterprise Applications" },
+	{ value: 7, suffix: "+", label: "Full-Stack Applications" },
 ]
 
 const logoIconsList = [
@@ -117,8 +117,8 @@ const techStackImgs: Image[] = [
 		imgPath: "/images/logos/springboot.png",
 	},
 	{
-		name: "PostgresSQL",
-		imgPath: "/images/logos/postgres.png",
+		name: "MySQL",
+		imgPath: "/images/logos/mysql.png",
 	},
 
 ]

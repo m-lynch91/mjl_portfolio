@@ -5,6 +5,7 @@ import { Word } from "../types/Word"
 import { Image } from "../types/Image"
 import { ExperienceCard } from "../types/ExperienceCard";
 import { Testimonial } from "../types/Testimonial";
+import { Social } from "../types/Social";
 
 const mobileScreenSize = 768; // px
 const tabletScreenSize = 1024; // px
@@ -199,21 +200,10 @@ const testimonials: Testimonial[] = [
 	}
 ];
 
-const socialImgs: Image[] = [
-	{
-		name: "insta",
-		imgPath: "/images/insta.png",
-	},
-	{
-		name: "fb",
-		imgPath: "/images/fb.png",
-	},
-	{
-		name: "x",
-		imgPath: "/images/x.png",
-	},
+const socialImgs: Social[] = [
 	{
 		name: "linkedin",
+		url: "https://www.linkedin.com/in/micheal-lynch-261938223/",
 		imgPath: "/images/linkedin.png",
 	},
 ];

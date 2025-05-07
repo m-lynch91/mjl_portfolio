@@ -309,14 +309,14 @@ section {
     }
 
     .socials {
-      @apply flex items-center justify-center gap-5;
+      @apply flex items-center justify-center gap-10;
 
       .icon {
-        @apply border border-black-50 bg-black-100 flex justify-center items-center rounded-xl size-10 md:size-12 cursor-pointer transition-all duration-500 hover:bg-black-50;
+        @apply border border-black-50 bg-black-200 flex justify-center items-center rounded-2xl size-24 md:size-24 cursor-pointer transition-all duration-500 hover:bg-black-50;
       }
 
       img {
-        @apply inline-block;
+        @apply inline-block size-10;
       }
     }
   }

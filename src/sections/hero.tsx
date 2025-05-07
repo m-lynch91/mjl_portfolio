@@ -52,7 +52,6 @@ const Hero = () => {
                 </span>
               </h1>
               <h1>into Real Projects</h1>
-              <h1>that Deliver Results</h1>
             </div>
 
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
@@ -62,7 +61,7 @@ const Hero = () => {
 
             <Button
               className="md:w-80 md:h-16 w-60 h-12"
-              id="button"
+              id="counter"
               text="See my work"
             />
           </div>
@@ -71,7 +70,7 @@ const Hero = () => {
         {/* RIGHT SIDE: */}
       </div>
 
-      {/* <AnimmatedCounter /> */}
+      <AnimmatedCounter />
     </section>
   );
 };

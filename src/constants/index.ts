@@ -40,9 +40,9 @@ const words: Word[] = [
 ];
 
 const counterItems: CounterItem[] = [
-	{ value: 2, suffix: "+", label: "Years of Experience" },
-	{ value: 200, suffix: "+", label: "Satisfied Clients" },
-	{ value: 2, suffix: "+", label: "Completed Projects" },
+	{ value: 2, suffix: "+", label: "Years of Software Development Experience" },
+	{ value: 5, suffix: "+", label: "Enterprise Applications" },
+	{ value: 7, suffix: "+", label: "Full-Stack Applications" },
 ]
 
 const logoIconsList = [
@@ -117,8 +117,8 @@ const techStackImgs: Image[] = [
 		imgPath: "/images/logos/springboot.png",
 	},
 	{
-		name: "PostgresSQL",
-		imgPath: "/images/logos/postgres.png",
+		name: "MySQL",
+		imgPath: "/images/logos/mysql.png",
 	},
 
 ]
@@ -196,28 +196,7 @@ const testimonials: Testimonial[] = [
 		review:
 			"Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
 		imgPath: "/images/client2.png",
-	},
-	{
-		name: "Marvin McKinney",
-		mentions: "@marvinmckinney",
-		review:
-			"Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
-		imgPath: "/images/client5.png",
-	},
-	{
-		name: "Floyd Miles",
-		mentions: "@floydmiles",
-		review:
-			"Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
-		imgPath: "/images/client4.png",
-	},
-	{
-		name: "Albert Flores",
-		mentions: "@albertflores",
-		review:
-			"Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
-		imgPath: "/images/client6.png",
-	},
+	}
 ];
 
 const socialImgs: Image[] = [

@@ -42,8 +42,8 @@ const words: Word[] = [
 
 const counterItems: CounterItem[] = [
 	{ value: 2, suffix: "+", label: "Years of Software Development Experience" },
-	{ value: 5, suffix: "+", label: "Enterprise Applications" },
-	{ value: 7, suffix: "+", label: "Full-Stack Applications" },
+	{ value: 5, suffix: "+", label: "Enterprise Web Applications" },
+	{ value: 9, suffix: "+", label: "Years of Technical Expertise" },
 ]
 
 const logoIconsList = [
@@ -102,31 +102,46 @@ const abilities: Ability[] = [
 
 const techStackImgs: Image[] = [
 	{
-		name: "React",
-		imgPath: "/images/logos/react.png",
-	},
-	{
-		name: "JavaScript",
-		imgPath: "/images/logos/javascript.png",
-	},
-	{
-		name: "Java",
+		name: "JAVA",
 		imgPath: "/images/logos/java.png",
 	},
 	{
-		name: "Spring Boot",
+		name: "SPRING BOOT",
 		imgPath: "/images/logos/springboot.png",
 	},
 	{
-		name: "MySQL",
+		name: "C#",
+		imgPath: "/images/logos/csharp.png",
+	},
+	{
+		name: "JAVASCRIPT",
+		imgPath: "/images/logos/javascript.png",
+	},
+	{
+		name: "NODE JS",
+		imgPath: "/images/logos/node.png",
+	},
+	{
+		name: "REACT",
+		imgPath: "/images/logos/react.png",
+	},
+	{
+		name: "TAILWIND",
+		imgPath: "/images/logos/tailwind.png",
+	},
+	{
+		name: "MYSQL",
 		imgPath: "/images/logos/mysql.png",
+	},
+	{
+		name: "GIT",
+		imgPath: "/images/logos/git.png",
 	},
 
 ]
 
 const expCards: ExperienceCard[] = [
 	{
-		review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
 		imgPath: "/images/exp1.png",
 		logoPath: "/images/rcmp-logo1.png",
 		title: "Programmer Analyst",
@@ -138,7 +153,6 @@ const expCards: ExperienceCard[] = [
 		],
 	},
 	{
-		review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
 		imgPath: "/images/exp1.png",
 		logoPath: "/images/rcmp-logo1.png",
 		title: "Junior Programmer Analyst",
@@ -150,7 +164,6 @@ const expCards: ExperienceCard[] = [
 		],
 	},
 	{
-		review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
 		imgPath: "/images/exp2.png",
 		logoPath: "/images/buckland-logo1.png",
 		title: "Junior Developer",

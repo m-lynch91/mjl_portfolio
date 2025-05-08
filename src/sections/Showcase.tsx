@@ -13,6 +13,12 @@ const Showcase = () => {
   const project3Ref = useRef(null);
 
   useGSAP(() => {
+    gsap.fromTo(
+      sectionRef.current,
+      { opacity: 0 },
+      { opacity: 1, duration: 3.0 }
+    );
+
     const projects = [
       project1Ref.current,
       project2Ref.current,
@@ -35,12 +41,6 @@ const Showcase = () => {
         }
       );
     });
-
-    gsap.fromTo(
-      sectionRef.current,
-      { opacity: 0 },
-      { opacity: 1, duration: 3.0 }
-    );
   }, []);
 
   return (
@@ -59,27 +59,17 @@ const Showcase = () => {
           </div>
 
           {/** RIGHT */}
-          <div
-            className="project-list-wrapper overflow-hidden"
-            ref={project2Ref}
-          >
-            <div className="project">
+          <div className="project-list-wrapper overflow-hidden">
+            <div className="project" ref={project2Ref}>
               <div className="images-wrapper bg-[#ffefdb]">
-                <img src="/images/project2.png" alt="Project 2" />
+                <img src="/images/project-portfolio.png" alt="Project 2" />
               </div>
               <div className="text-wrapper">
-                <h2>Project 2 - Small Description</h2>
+                <h2>Project 2 - Portfolio</h2>
               </div>
             </div>
 
-            <div className="project" ref={project3Ref}>
-              <div className="images-wrapper bg-[#ffe7eb]">
-                <img src="/images/project3.png" alt="Project 3" />
-              </div>
-              <div className="text-wrapper">
-                <h2>Project 3 - Small Description</h2>
-              </div>
-            </div>
+
           </div>
         </div>
       </div>

@@ -44,8 +44,8 @@ const Showcase = () => {
   }, []);
 
   return (
-    <section id="work" ref={sectionRef} className="app-showcase">
-      <div className="w-full">
+    <section id="work" ref={sectionRef} className="relative overflow-hidden">
+      <div className="app-showcase scroll-px-0.5">
         <div className="showcaselayout">
           {/** LEFT */}
           <div className="first-project-wrapper" ref={project1Ref}>
@@ -68,8 +68,6 @@ const Showcase = () => {
                 <h2>Project 2 - Portfolio</h2>
               </div>
             </div>
-
-
           </div>
         </div>
       </div>

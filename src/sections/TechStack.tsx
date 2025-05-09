@@ -14,7 +14,7 @@ const TechStack = () => {
                 key={icon.name}
                 className="card-border rounded-xl p-2 flex flex-col gap-4"
               >
-                <div className="p-6 shadow-white-50 shadow-lg rounded-xl hover:scale-105 ease-in duration-50">
+                <div className="p-6 shadow-gray-600 shadow-lg rounded-xl hover:scale-105 ease-in duration-450">
                   <div className="grid grid-cols-2 gap-4 justify-center items-center">
                     <div className="m-auto">
                       <img src={icon.imgPath} width={64} height={64} />

@@ -27,9 +27,9 @@ const Experience = () => {
   return (
     <section
       id="experience"
-      className="w-full md:mt-40 mt-20 section-padding xl:px-0"
+      className="full-section"
     >
-      <div className="w-full h-full md:px-20 px-5">
+      <div className="md:px-20 py-20">
         <TitleHeader
           title="Professional Work Experience"
           sub="My Career Overview"

@@ -4,8 +4,8 @@ import { testimonials } from "../constants";
 
 const Testimonials = () => {
   return (
-    <section id="testimonials" className="flex-center section-padding">
-      <div className="w-full h-full md:px-10 px-5">
+    <section id="testimonials" className="full-section">
+      <div className="w-full h-full md:px-10 px-5 py-20">
         <TitleHeader
           title="What People Say About Me?"
           sub="Team Highlights"

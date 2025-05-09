@@ -1,10 +1,10 @@
 import TitleHeader from "../components/TitleHeader";
 import { techStackImgs } from "../constants";
 
-const TechStack = () => {
+const Skills = () => {
   return (
-    <div id="skills" className="flex-center section-padding">
-      <div className="w-full h-full md:px-10 px-5">
+    <div id="skills" className="full-section">
+      <div className="md:px-10 px-5 py-30">
         <TitleHeader title="My Tech Stack" sub="Skills" />
 
         <div className="tech-stack">
@@ -35,4 +35,4 @@ const TechStack = () => {
   );
 };
 
-export default TechStack;
+export default Skills;

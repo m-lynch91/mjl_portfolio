@@ -4,8 +4,8 @@ import Experience from "./sections/Experience"
 import About from "./sections/About"
 import Footer from "./sections/Footer"
 import Hero from "./sections/hero"
-import Showcase from "./sections/Showcase"
-import TechStack from "./sections/TechStack"
+import Projects from "./sections/Projects"
+import Skills from "./sections/Skills"
 import Testimonials from "./sections/Testimonials"
 
 const App = () => {
@@ -14,9 +14,9 @@ const App = () => {
             <Navbar/>
             <Hero/>
             <About/>
-            <Showcase/>
+            <Projects/>
             <Experience/>
-            <TechStack/>
+            <Skills/>
             <Testimonials/>
             <Contact/>
             <Footer/>

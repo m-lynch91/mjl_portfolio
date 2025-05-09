@@ -6,7 +6,7 @@ import { useGSAP } from "@gsap/react";
 /** Must register plugin for gsap to know how to apply scroll related animation behaviour */
 gsap.registerPlugin(ScrollTrigger);
 
-const Showcase = () => {
+const Projects = () => {
   const sectionRef = useRef(null);
   const project1Ref = useRef(null);
   const project2Ref = useRef(null);
@@ -44,7 +44,7 @@ const Showcase = () => {
   }, []);
 
   return (
-    <section id="work" ref={sectionRef} className="relative overflow-hidden">
+    <section id="work" ref={sectionRef} className="full-section">
       <div className="app-showcase scroll-px-0.5">
         <div className="showcaselayout">
           {/** LEFT */}
@@ -75,4 +75,4 @@ const Showcase = () => {
   );
 };
 
-export default Showcase;
+export default Projects;

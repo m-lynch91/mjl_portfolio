@@ -1,7 +1,7 @@
 import Navbar from "./components/Navbar"
 import Contact from "./sections/Contact"
 import Experience from "./sections/Experience"
-import FeatureCards from "./sections/FeatureCards"
+import About from "./sections/About"
 import Footer from "./sections/Footer"
 import Hero from "./sections/hero"
 import Showcase from "./sections/Showcase"
@@ -13,7 +13,7 @@ const App = () => {
         <>
             <Navbar/>
             <Hero/>
-            <FeatureCards/>
+            <About/>
             <Showcase/>
             <Experience/>
             <TechStack/>

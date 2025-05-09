@@ -22,13 +22,8 @@ const Hero = () => {
   });
 
   return (
-    <section id="hero" className="relative overflow-hidden">
-      <div className="absolute top-0 left-0 z-10">
-        <img src="/images/bg.png" alt="background"></img>
-      </div>
-
-      <div className="hero-layout">
-        {/* LEFT SIDE: hero content */}
+    <section id="hero" className="full-section">
+      <div className="section-container">
         <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5">
           <div className="flex flex-col gap-7">
             <div className="hero-text">
@@ -66,11 +61,7 @@ const Hero = () => {
             />
           </div>
         </header>
-
-        {/* RIGHT SIDE: */}
       </div>
-
-      <AnimmatedCounter />
     </section>
   );
 };

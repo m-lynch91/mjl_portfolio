@@ -12,6 +12,10 @@ const tabletScreenSize = 1024; // px
 
 const navLinks: NavLink[] = [
 	{
+		name: "About",
+		link: "#about"
+	},
+	{
 		name: "Work",
 		link: "#work"
 	},

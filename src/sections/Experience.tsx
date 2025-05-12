@@ -25,47 +25,36 @@ const Experience = () => {
   }, []);
 
   return (
-    <section
-      id="experience"
-      className="full-section"
-    >
-      <div className="md:px-20 py-20">
-        <TitleHeader
-          title="Professional Work Experience"
-          sub="My Career Overview"
-        />
+    <section id="experience" className="full-section">
+      <div className="section-container">
         <div>
-          <div className="mt-20 m-40 not-even:relative z-50 xl:space-y-32 space-y-10">
-            {expCards.map((card, index) => (
-              <div key={card.title}>
-                <div>
-                  <div className="flex items-start">
-                    <div className="expText flex xl:gap-20 md:gap-10 gap-5 relative z-20">
-                      <div className="timeline-logo">
-                        <img src={card.logoPath} alt="logo" />
-                      </div>
-                      <div>
-                        <h1 className="font-semibold text-4xl">{card.title}</h1>
-                        <p className="my-5 text-2xl text-white-50">
-                          {card.date}
-                        </p>
-                        <p className="text-[#839cb5] italic">
-                          Responsibilities
-                        </p>
-                        <ul className="list-disc ms-5 mt-5 flex flex-col gap-5 text-white-50">
-                          {card.responsibilities.map((responsibility) => (
-                            <li key={responsibility} className="text-lg">
-                              {responsibility}
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-                    </div>
+          <TitleHeader
+            title="Professional Work Experience"
+            sub="My Career Overview"
+          />
+          {expCards.map((card, index) => (
+            <div key={card.title} className="p-10">
+              <div className="flex items-start">
+                <div className="expText flex xl:gap-20 md:gap-10 gap-5 relative z-20">
+                  <div className="timeline-logo">
+                    <img src={card.logoPath} alt="logo" />
+                  </div>
+                  <div>
+                    <h1 className="font-semibold text-4xl">{card.title}</h1>
+                    <p className="my-5 text-2xl text-white-50">{card.date}</p>
+                    <p className="text-[#839cb5]">Responsibilities</p>
+                    <ul className="list-disc ms-5 mt-5 flex flex-col gap-5 text-white-50">
+                      {card.responsibilities.map((responsibility) => (
+                        <li key={responsibility} className="text-lg">
+                          {responsibility}
+                        </li>
+                      ))}
+                    </ul>
                   </div>
                 </div>
               </div>
-            ))}
-          </div>
+            </div>
+          ))}
         </div>
       </div>
     </section>

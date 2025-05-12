@@ -45,27 +45,31 @@ const Projects = () => {
 
   return (
     <section id="work" ref={sectionRef} className="full-section">
-      <div className="app-showcase scroll-px-0.5">
-        <div className="showcaselayout">
-          {/** LEFT */}
-          <div className="first-project-wrapper" ref={project1Ref}>
-            <div className="image-wrapper">
-              <img src="/images/project1.png" alt="Project 1" />
+      <div className="section-container">
+        <div className="app-showcase">
+          <div className="project-list-wrapper">
+            <div ref={project1Ref}>
+              <div className="images-wrapper bg-[#ffefdb]">
+                <img src="/images/coming-soon.jpg" alt="Project 1" />
+              </div>
+              <div className="text-wrapper">
+                <h2>Project 1 - Coming Soon!</h2>
+              </div>
             </div>
-            <div className="text-content">
-              <h2>Project 1 - Small Description goes here!</h2>
-              <p className="text-white-50 md:text-xl"></p>
-            </div>
-          </div>
-
-          {/** RIGHT */}
-          <div className="project-list-wrapper overflow-hidden">
-            <div className="project" ref={project2Ref}>
+            <div ref={project2Ref}>
               <div className="images-wrapper bg-[#ffefdb]">
                 <img src="/images/project-portfolio.png" alt="Project 2" />
               </div>
               <div className="text-wrapper">
                 <h2>Project 2 - Portfolio</h2>
+              </div>
+            </div>
+            <div ref={project3Ref}>
+              <div className="images-wrapper bg-[#ffefdb]">
+                <img src="/images/server.png" alt="Project 3" />
+              </div>
+              <div className="text-wrapper">
+                <h2>Project 3 - Server PC</h2>
               </div>
             </div>
           </div>

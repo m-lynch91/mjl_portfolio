@@ -94,7 +94,7 @@ section {
   }
 
   .section-container {
-    @apply max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center
+    @apply max-w-[1240px] w-full h-full mx-auto p-5 flex justify-center items-center
   }
 
   /* hero section styling */
@@ -171,40 +171,12 @@ section {
 
   /* app section styling */
   .app-showcase {
-    @apply w-full mt-20 px-5 md:px-20 py-10 md:py-20 flex items-center justify-center;
-
-    .showcaselayout {
-      @apply flex xl:flex-row flex-col gap-10 justify-between;
-    }
-
-    .first-project-wrapper {
-      @apply h-full flex flex-col justify-between xl:w-[60%];
-
-      .image-wrapper {
-        @apply xl:h-[45vh] md:h-[35vh] h-96 relative;
-
-        img {
-          @apply w-full h-full object-cover rounded-xl absolute inset-0;
-        }
-      }
-
-      .text-content {
-        @apply space-y-5 mt-5;
-
-        .badges {
-          @apply flex gap-2 mb-4;
-        }
-
-        h2 {
-          @apply text-2xl md:text-3xl lg:text-4xl font-bold;
-        }
-      }
-    }
+    @apply flex items-center justify-center;
 
     .project-list-wrapper {
-      @apply flex md:flex-row flex-col xl:flex-col gap-10 xl:w-[40%];
+      @apply w-full grid md:grid-cols-2 gap-8;
 
-      .image-wrapper {
+      .images-wrapper {
         @apply xl:h-[37vh] md:h-52 lg:h-72 h-64 relative rounded-xl xl:px-5 2xl:px-12 py-0;
       }
 

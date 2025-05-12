@@ -27,10 +27,10 @@ const navLinks: NavLink[] = [
 		name: "Skills",
 		link: "#skills"
 	},
-	{
-		name: "Testimonials",
-		link: "#testimonials"
-	},
+	// {
+	// 	name: "Testimonials",
+	// 	link: "#testimonials"
+	// },
 ]
 
 const words: Word[] = [
@@ -152,8 +152,8 @@ const expCards: ExperienceCard[] = [
 		date: "December 2024 - Present",
 		responsibilities: [
 			"Designed and executed Oracle database schema modifications using Data Definition Language (DDL) changes, ensuring backward compatibility and supporting new feature deployments.",
-			"Refactored Java Server Faces markup and Java EE enterprise beans, resolving critical issues that previously blocked data persistence and validation error visibility.",
-			"Worked with stakeholders and technology partners to ensure solutions met technical direction, requirements, performance, and deadline expectations.",
+			"Restored reliable data persistence and validation error visibility, achieving consistent form feedback, by refactoring JSF pages and Java EE beans",
+			"Designed intuitive front-end features by collaborating with stakeholders to translate business needs into clear technical and UX requirements.",
 		],
 	},
 	{
@@ -162,9 +162,9 @@ const expCards: ExperienceCard[] = [
 		title: "Junior Programmer Analyst",
 		date: "September 2023 - December 2024",
 		responsibilities: [
-			"Collaborated with Technical Advisor to design and implement a REST API to modernize Missing Children Persons and Unidentified Remains application using Spring Boot.",
-			"Enhanced the RCMP School Action For Emergencies application’s offline reporting capabilities, increasing the number of schools generating reports.",
-			"Optimized Java EE bean by integrating a virtualizer, reducing Jasper Report object memory consumption and enabling processing of larger report file sizes.",
+			"Collaborated with Technical Advisor to design and implement a REST API to modernize Missing Children, Persons, and Unidentified Remains application using Spring Boot.",
+			"Reduced JasperReport object memory consumption, enabling much larger exports without failures, by refactoring JasperReport templates.",
+			"Addressed UAT feedback with rapid fixes, ensuring School Action For Emergencies milestone release was delivered on schedule.",
 		],
 	},
 	{
@@ -173,7 +173,6 @@ const expCards: ExperienceCard[] = [
 		title: "Junior Developer",
 		date: "January 2023 - April 2023",
 		responsibilities: [
-			"Built multiple UI components for a new company web application using Blazor and Radzen.",
 			"Implemented REST API endpoints in C# / .NET, facilitating seamless communication between the front-end and back-end services.",
 			"Wrote SQL scripts for data processing, resolving priority JIRA tickets and improving Business Analyst workflow.",
 			"Delivered code updates through Azure DevOps, incorporating peer feedback to maintain high code quality and adherence to best practices."

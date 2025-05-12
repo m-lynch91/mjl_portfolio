@@ -48,12 +48,6 @@ const Hero = () => {
               </h1>
               <h1>into Real Projects</h1>
             </div>
-
-            <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              Hey! I'm Micheal, a software developer based in Toronto, with over
-              2 years of experience developing enterprise web applications.
-            </p>
-
             <Button
               text="See my work"
               className="md:w-80 md:h-16 w-60 h-12"

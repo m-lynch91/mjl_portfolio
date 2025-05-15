@@ -4,9 +4,8 @@ import { Word } from "../types/Word";
 import Button from "../components/Button";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
-import AnimmatedCounter from "../components/AnimatedCounter";
 
-const Hero = () => {
+const Home = () => {
   /**
    * GSAP animation for the hero section
    * y: change in why position gives the effect of moving in from the bottom
@@ -22,7 +21,7 @@ const Hero = () => {
   });
 
   return (
-    <section id="hero" className="full-section">
+    <section id="home" className="full-section">
       <div className="section-container">
         <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5">
           <div className="flex flex-col gap-7">
@@ -60,4 +59,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Home;

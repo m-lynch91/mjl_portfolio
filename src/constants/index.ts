@@ -9,6 +9,8 @@ import { Social } from "../types/Social";
 
 const mobileScreenSize = 768; // px
 const tabletScreenSize = 1024; // px
+const linkedInProfile = "https://www.linkedin.com/in/micheal-lynch-261938223/";
+const githubProfile = "https://github.com/m-lynch91"
 
 const navLinks: NavLink[] = [
 	{
@@ -216,13 +218,6 @@ const testimonials: Testimonial[] = [
 	}
 ];
 
-const socialImgs: Social[] = [
-	{
-		name: "linkedin",
-		url: "https://www.linkedin.com/in/micheal-lynch-261938223/",
-		imgPath: "/images/linkedin.png",
-	},
-];
 
 export {
 	words,
@@ -234,7 +229,8 @@ export {
 	expCards,
 	expLogos,
 	testimonials,
-	socialImgs,
 	mobileScreenSize,
 	tabletScreenSize,
+	linkedInProfile,
+	githubProfile
 }

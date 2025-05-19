@@ -3,41 +3,50 @@ import { abilities } from "../constants";
 const About = () => {
   return (
     <section id="about" className="w-full min-h-screen py-20">
-        <div className="flex flex-col max-w-[1240px] w-screen m-auto md:grid grid-rows-2 gap-10">
-          <div className="md:grid grid-cols-3">
-            {abilities.map((item) => (
-              <div
-                key={item.title}
-                className="card-border rounded-xl p-6 m-2 flex flex-col gap-2"
-              >
-                <div className="size-14 flex items-center justify-center rounded-full">
-                  <img src={item.imgPath} alt={item.title} />
-                </div>
-                <h3 className="text-white text-2xl font-semibold">
-                  {item.title}
-                </h3>
-                <p className="text-white-50 text-lg">{item.desc}</p>
+      <div className="flex flex-col max-w-[1240px] w-screen m-auto md:grid grid-rows-2 gap-10">
+        <div className="md:grid grid-cols-3">
+          {abilities.map((item) => (
+            <div
+              key={item.title}
+              className="card-border rounded-xl p-6 m-2 flex flex-col gap-2"
+            >
+              <div className="size-14 flex items-center justify-center rounded-full">
+                <img src={item.imgPath} alt={item.title} />
               </div>
-            ))}
-          </div>
-          <div className="items-start flex px-5">
-            <p className="text-2xl">
-              I’m a Toronto-based software developer who pivoted from a Quality
-              Assurance laboratory technician—where I spent over five years
-              working under tight deadlines to certify products met the highest
-              standards—into the world of code. After earning my Computer
-              Programming & Analysis diploma in December 2024, I’ve spent the
-              past two years architecting and delivering enterprise-scale web
-              applications, honing my full-stack chops in both academic and
-              professional settings. I thrive building resilient back-ends with
-              Java and Spring Boot and crafting dynamic user interfaces with
-              React, Vue, or Angular. On top of that, I’ve applied Node.js,
-              C#/.NET, C++, and SQL across real-world projects—bringing the same
-              meticulous attention to detail and commitment to on-time delivery
-              from my QA days into every layer of the stack.
-            </p>
-          </div>
+              <h3 className="text-white text-2xl font-semibold">
+                {item.title}
+              </h3>
+              <p className="text-white-50 text-lg">{item.desc}</p>
+            </div>
+          ))}
         </div>
+        <div className="grid grid-rows-3 p-10 gap-10">
+          <p className="text-2xl">
+            I'm a full-stack software developer with over 2 years of
+            professional software development experience and over 5 years of
+            quality assurance experience. I have a proven track record of
+            delivering enterprise web applications in the federal law
+            enforcement and international trade and customs industries. I'm
+            passionate about solving problems across every layer of the tech
+            stack.
+          </p>
+          <p className="text-2xl">
+            Expertise in developing application front-ends by programming in
+            JavaScript and TypeScript with React. Specialized in programming in
+            Java with Spring Boot, C# with .NET, and NodeJs to create RESTful
+            API services to connect the front and back end layers. Proficient in
+            creating, modifying, and streamlining relational SQL and document
+            based NoSQL database schema.
+          </p>
+          <p className="text-2xl">
+            With a career of quality assurance behind me and a strong academic
+            background in computer science, I am passionate about mastering
+            different technologies. I am proficient in multi-layered
+            architectures, utilizing the perfect data structures and algorithms
+            and taking advantage of the right software design patterns.
+          </p>
+        </div>
+      </div>
     </section>
   );
 };

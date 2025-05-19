@@ -17,8 +17,8 @@ const navLinks: NavLink[] = [
 		link: "#about"
 	},
 	{
-		name: "Work",
-		link: "#work"
+		name: "Projects",
+		link: "#projects"
 	},
 	{
 		name: "Experience",
@@ -150,7 +150,7 @@ const expCards: ExperienceCard[] = [
 		imgPath: "/images/exp1.png",
 		logoPath: "/images/rcmp-logo1.png",
 		title: "Programmer Analyst",
-		date: "December 2024 - Present",
+		date: "December 2024 - May 2025",
 		responsibilities: [
 			"Designed and executed Oracle database schema modifications using Data Definition Language (DDL) changes, ensuring backward compatibility and supporting new feature deployments.",
 			"Restored reliable data persistence and validation error visibility, achieving consistent form feedback, by refactoring JSF pages and Java EE beans",

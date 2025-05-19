@@ -22,7 +22,7 @@ const Home = () => {
 
   return (
     <section id="home" className="w-full h-screen items-center">
-      <div className="max-w-2xl w-full h-full mx-auto flex justify-center items-center">
+      <div className="w-full h-full mx-auto flex justify-center items-center">
         <header>
           <div className="flex flex-col gap-7">
             <div className="flex flex-col justify-center md:text-[60px] text-[30px] font-semibold relative z-10 pointer-events-none">

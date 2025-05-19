@@ -42,24 +42,24 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="w-full lg:h-screen">
-      <div className="p-10 grid grid-rows-2 gap-10 md:grid-cols-2">
+    <section id="contact" className="w-full min-h-screen py-20 lg:h-screen">
+      <div className="flex flex-col max-w-[1240px] w-screen m-auto md:grid grid-cols-2 p-5 gap-5">
         {/** contact information */}
-        <div className="border-3 rounded-sm p-10 space-y-4">
-          <h1 className="text-2xl">Get in Touch</h1>
+        <div className="border-3 rounded-sm p-10 space-y-5">
+          <h1 className="text-4xl">Get in Touch</h1>
 
           <div className="flex items-center gap-3">
             <Mail className="h-5 w-5 text-primary" />
-            <p>micheal.j.lynch@gmail.com</p>
+            <p className="text-xl">micheal.j.lynch@gmail.com</p>
           </div>
 
           <div className="flex items-center gap-3">
             <MapPin className="h-5 w-5 text-primary" />
-            <p>Toronto, ON</p>
+            <p className="text-xl">Toronto, ON</p>
           </div>
 
           <div className="pt-4 border-t border-border">
-            <p className="text-md mb-3 text-muted-foreground">
+            <p className="text-xl mb-3 text-muted-foreground">
               Connect with me:
             </p>
             <div className="flex gap-5">
@@ -69,7 +69,7 @@ const Contact = () => {
                 rel="noopener noreferrer"
                 className="inline-flex"
               >
-                <FaLinkedin className="h-5 w-5" />
+                <FaLinkedin className="h-10 w-10 hover:scale-120 transition-transform" />
               </a>
               <a
                 href={githubProfile}
@@ -77,7 +77,7 @@ const Contact = () => {
                 rel="noopener noreferrer"
                 className="inline-flex"
               >
-                <FaGithub className="h-5 w-5" />
+                <FaGithub className="h-10 w-10 hover:scale-120 transition-transform" />
               </a>
             </div>
           </div>
@@ -91,7 +91,7 @@ const Contact = () => {
             className="w-full flex flex-col gap-7"
           >
             <div>
-              <label htmlFor="name" className="block text-white-50 mb-2">
+              <label htmlFor="name" className="block text-white-100 font-semibold text-xl mb-2">
                 Your Name
               </label>
               <input
@@ -107,7 +107,7 @@ const Contact = () => {
             </div>
 
             <div>
-              <label htmlFor="email">Your Email</label>
+              <label htmlFor="email" className="block text-white-100 font-semibold text-xl mb-2">Your Email</label>
               <input
                 type="email"
                 id="email"
@@ -121,7 +121,7 @@ const Contact = () => {
             </div>
 
             <div>
-              <label htmlFor="message">Your Message</label>
+              <label htmlFor="message" className="block text-white-100 font-semibold text-xl mb-2">Your Message</label>
               <input
                 type="message"
                 id="message"

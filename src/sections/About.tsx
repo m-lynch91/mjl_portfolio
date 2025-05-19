@@ -3,8 +3,8 @@ import { abilities } from "../constants";
 const About = () => {
   return (
     <section id="about" className="w-full min-h-screen py-20">
-      <div className="flex flex-col max-w-[1240px] w-screen m-auto md:grid grid-rows-2 gap-10">
-        <div className="md:grid grid-cols-3">
+      <div className="flex flex-col max-w-[1240px] w-screen m-auto md:grid grid-rows-2">
+        <div className="md:flex md:flex-row md:m-auto py-15">
           {abilities.map((item) => (
             <div
               key={item.title}

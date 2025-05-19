@@ -5,11 +5,11 @@ interface THProps {
 
 const TitleHeader: React.FC<THProps> = ({ title, sub }) => {
   return (
-    <div className="flex flex-col items-center gap-10">
-      <div className="hero-badge text-3xl">
+    <div className="flex flex-col items-center gap-5">
+      <div className="bg-black-200 py-5 px-10 rounded-full w-fit text-2xl">
         <p>{sub}</p>
       </div>
-      <div className="font-semibold md:text-3xl text-3xl text-center">
+      <div className="bg-black-200 py-2 px-5 rounded-full w-fit text-xl text-nowrap text-3xl">
         {title}
       </div>
     </div>

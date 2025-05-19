@@ -21,9 +21,9 @@ const Home = () => {
   });
 
   return (
-    <section id="home" className="full-section">
-      <div className="section-container">
-        <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5">
+    <section id="home" className="w-full h-screen items-center">
+      <div className="max-w-2xl w-full h-full mx-auto flex justify-center items-center">
+        <header>
           <div className="flex flex-col gap-7">
             <div className="hero-text">
               <h1>

@@ -3,7 +3,7 @@ import { techStackImgs } from "../constants";
 
 const Skills = () => {
   return (
-    <div id="skills" className="full-section">
+    <section id="skills" className="full-section">
       <div className="section-container">
         <div>
           <TitleHeader title="My Tech Stack" sub="Skills" />
@@ -33,7 +33,7 @@ const Skills = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -1,4 +1,3 @@
-import GlowCard from "../components/GlowCard";
 import TitleHeader from "../components/TitleHeader";
 import { expCards } from "../constants";
 import gsap from "gsap";
@@ -25,32 +24,28 @@ const Experience = () => {
   }, []);
 
   return (
-    <section id="experience" className="full-section">
-      <div className="section-container">
-        <div>
-          <TitleHeader
-            title="Professional Work Experience"
-            sub="My Career Overview"
-          />
-          {expCards.map((card, index) => (
-            <div key={card.title} className="p-10">
-              <div className="flex items-start">
-                <div className="expText flex xl:gap-20 md:gap-10 gap-5 relative z-20">
-                  <div className="timeline-logo">
-                    <img src={card.logoPath} alt="logo" />
-                  </div>
-                  <div>
-                    <h1 className="font-semibold text-4xl">{card.title}</h1>
-                    <p className="my-5 text-2xl text-white-50">{card.date}</p>
-                    <p className="text-[#839cb5]">Responsibilities</p>
-                    <ul className="list-disc ms-5 mt-5 flex flex-col gap-5 text-white-50">
-                      {card.responsibilities.map((responsibility) => (
-                        <li key={responsibility} className="text-lg">
-                          {responsibility}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
+    <section id="experience" className="w-full min-h-screen py-20">
+      <div className="max-w-[1240px] mx-auto px-5">
+        <TitleHeader title="My Experience" sub="Career Path" />
+        
+        <div className="mt-16 grid grid-rows-3 gap-10">
+          {expCards.map((card) => (
+            <div key={card.title} className="card-border rounded-xl p-8">
+              <div className="flex flex-col md:flex-row gap-8">
+                <div className="md:w-24 w-16">
+                  <img src={card.logoPath} alt="logo" className="w-full" />
+                </div>
+                <div className="flex-1">
+                  <h1 className="font-semibold text-2xl md:text-4xl">{card.title}</h1>
+                  <p className="text-xl md:text-2xl text-white-50 mt-2">{card.date}</p>
+                  <p className="text-[#839cb5] mt-6 mb-4">Responsibilities</p>
+                  <ul className="list-disc ms-5 flex flex-col gap-4">
+                    {card.responsibilities.map((responsibility) => (
+                      <li key={responsibility} className="text-white-50 text-base md:text-lg">
+                        {responsibility}
+                      </li>
+                    ))}
+                  </ul>
                 </div>
               </div>
             </div>

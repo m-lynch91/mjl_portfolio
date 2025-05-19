@@ -1,12 +1,10 @@
-import AnimmatedCounter from "../components/AnimatedCounter";
 import { abilities } from "../constants";
 
 const About = () => {
   return (
-    <div id="about" className="full-section">
-      <div className="section-container">
+    <section id="about" className="w-full min-h-screen py-20">
         <div className="flex flex-col max-w-[1240px] w-screen m-auto md:grid grid-rows-2 gap-10">
-          <div className="max-w-[1240px] w-screen m-auto md:grid grid-cols-3">
+          <div className="md:grid grid-cols-3">
             {abilities.map((item) => (
               <div
                 key={item.title}
@@ -40,8 +38,7 @@ const About = () => {
             </p>
           </div>
         </div>
-      </div>
-    </div>
+    </section>
   );
 };
 

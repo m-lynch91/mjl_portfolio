@@ -44,37 +44,39 @@ const Projects = () => {
   }, []);
 
   return (
-    <section id="work" ref={sectionRef} className="full-section">
-      <div className="section-container">
-        <div className="app-showcase">
-          <div className="project-list-wrapper">
-            <div ref={project1Ref}>
-              <div className="images-wrapper bg-[#ffefdb]">
-                <img src="/images/coming-soon.jpg" alt="Project 1" />
-              </div>
-              <div className="text-wrapper">
-                <h2>Project 1 - Coming Soon!</h2>
-              </div>
+    <section
+      id="work"
+      ref={sectionRef}
+      className="w-full h-screen items-center"
+    >
+      <section className="w-full">
+        <div className="max-w-[1240px] mx-auto px-2 py-16">
+          <div ref={project1Ref} className="p-10">
+            <div>
+              <img src="/images/coming-soon.jpg" alt="Project 1" />
             </div>
-            <div ref={project2Ref}>
-              <div className="images-wrapper bg-[#ffefdb]">
-                <img src="/images/project-portfolio.png" alt="Project 2" />
-              </div>
-              <div className="text-wrapper">
-                <h2>Project 2 - Portfolio</h2>
-              </div>
+            <div>
+              <h2>Project 1 - Coming Soon!</h2>
             </div>
-            <div ref={project3Ref}>
-              <div className="images-wrapper bg-[#ffefdb]">
-                <img src="/images/server.png" alt="Project 3" />
-              </div>
-              <div className="text-wrapper">
-                <h2>Project 3 - Server PC</h2>
-              </div>
+          </div>
+          <div ref={project1Ref} className="p-10">
+            <div>
+              <img src="/images/coming-soon.jpg" alt="Project 1" />
+            </div>
+            <div>
+              <h2>Project 1 - Coming Soon!</h2>
+            </div>
+          </div>
+          <div ref={project1Ref} className="p-10">
+            <div>
+              <img src="/images/coming-soon.jpg" alt="Project 1" />
+            </div>
+            <div>
+              <h2>Project 1 - Coming Soon!</h2>
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </section>
   );
 };

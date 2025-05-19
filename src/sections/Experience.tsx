@@ -24,11 +24,11 @@ const Experience = () => {
   }, []);
 
   return (
-    <section id="experience" className="w-full min-h-screen py-20">
-      <div className="max-w-[1240px] mx-auto px-5">
-        <TitleHeader title="My Experience" sub="Career Path" />
+    <section id="experience">
+      <div >
+        {/* <TitleHeader title="My Experience" sub="Career Path" /> */}
         
-        <div className="mt-16 grid grid-rows-3 gap-10">
+        <div className="mt-16 grid grid-rows-3 gap-10 p-10">
           {expCards.map((card) => (
             <div key={card.title} className="card-border rounded-xl p-8">
               <div className="flex flex-col md:flex-row gap-8">

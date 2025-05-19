@@ -25,10 +25,10 @@ const Home = () => {
       <div className="max-w-2xl w-full h-full mx-auto flex justify-center items-center">
         <header>
           <div className="flex flex-col gap-7">
-            <div className="hero-text">
+            <div className="flex flex-col justify-center md:text-[60px] text-[30px] font-semibold relative z-10 pointer-events-none">
               <h1>
                 Shaping
-                <span className="slide">
+                <span className="absolute pt-0 px-2 md:px-5 py-[30px] h-[48px] md:h-[78px] md:translate-y-1 translate-y-0 overflow-hidden">
                   <span className="wrapper">
                     {words.map((word: Word, index) => (
                       <span
@@ -50,7 +50,7 @@ const Home = () => {
             <Button
               text="See my work"
               className="md:w-80 md:h-16 w-60 h-12"
-              id="work"
+              id="projects"
             />
           </div>
         </header>

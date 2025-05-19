@@ -8,8 +8,8 @@ const Skills = () => {
         <div>
           <TitleHeader title="My Tech Stack" sub="Skills" />
 
-          <div className="tech-stack">
-            <div className="tech-stack-grid">
+          <div className="w-full pt-10">
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 p-10">
               {techStackImgs.map((icon) => (
                 <div
                   key={icon.name}

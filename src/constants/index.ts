@@ -17,8 +17,8 @@ const navLinks: NavLink[] = [
 		link: "#about"
 	},
 	{
-		name: "Work",
-		link: "#work"
+		name: "Projects",
+		link: "#projects"
 	},
 	{
 		name: "Experience",
@@ -119,6 +119,10 @@ const techStackImgs: Image[] = [
 		imgPath: "/images/logos/csharp.png",
 	},
 	{
+		name: ".NET",
+		imgPath: "/images/logos/NET.png",
+	},
+	{
 		name: "JAVASCRIPT",
 		imgPath: "/images/logos/javascript.png",
 	},
@@ -142,6 +146,10 @@ const techStackImgs: Image[] = [
 		name: "GIT",
 		imgPath: "/images/logos/git.png",
 	},
+	{
+		name: "DOCKER",
+		imgPath: "/images/logos/docker.png",
+	},
 
 ]
 
@@ -149,8 +157,8 @@ const expCards: ExperienceCard[] = [
 	{
 		imgPath: "/images/exp1.png",
 		logoPath: "/images/rcmp-logo1.png",
-		title: "Programmer Analyst",
-		date: "December 2024 - Present",
+		title: "Software Developer, Programmer Analyst",
+		date: "December 2024 - May 2025",
 		responsibilities: [
 			"Designed and executed Oracle database schema modifications using Data Definition Language (DDL) changes, ensuring backward compatibility and supporting new feature deployments.",
 			"Restored reliable data persistence and validation error visibility, achieving consistent form feedback, by refactoring JSF pages and Java EE beans",
@@ -160,7 +168,7 @@ const expCards: ExperienceCard[] = [
 	{
 		imgPath: "/images/exp1.png",
 		logoPath: "/images/rcmp-logo1.png",
-		title: "Junior Programmer Analyst",
+		title: "Software Developer, Junior Programmer Analyst",
 		date: "September 2023 - December 2024",
 		responsibilities: [
 			"Collaborated with Technical Advisor to design and implement a REST API to modernize Missing Children, Persons, and Unidentified Remains application using Spring Boot.",
@@ -171,7 +179,7 @@ const expCards: ExperienceCard[] = [
 	{
 		imgPath: "/images/exp2.png",
 		logoPath: "/images/buckland-logo1.png",
-		title: "Junior Developer",
+		title: "Junior Software Developer",
 		date: "January 2023 - April 2023",
 		responsibilities: [
 			"Implemented REST API endpoints in C# / .NET, facilitating seamless communication between the front-end and back-end services.",

@@ -45,38 +45,48 @@ const Projects = () => {
 
   return (
     <section
-      id="work"
+      id="projects"
       ref={sectionRef}
-      className="w-full h-screen items-center"
+      className="w-full min-h-screen py-20"
     >
-      <section className="w-full">
-        <div className="max-w-[1240px] mx-auto px-2 py-16">
-          <div ref={project1Ref} className="p-10">
-            <div>
-              <img src="/images/coming-soon.jpg" alt="Project 1" />
-            </div>
-            <div>
-              <h2>Project 1 - Coming Soon!</h2>
-            </div>
+      <div className="md:grid md:grid-cols-2 p-10">
+        <div ref={project1Ref} className="p-10">
+          <div>
+            <h2 className="text-xl font-semibold pb-2">Project 1 - Coming Soon!</h2>
           </div>
-          <div ref={project1Ref} className="p-10">
-            <div>
-              <img src="/images/coming-soon.jpg" alt="Project 1" />
-            </div>
-            <div>
-              <h2>Project 1 - Coming Soon!</h2>
-            </div>
-          </div>
-          <div ref={project1Ref} className="p-10">
-            <div>
-              <img src="/images/coming-soon.jpg" alt="Project 1" />
-            </div>
-            <div>
-              <h2>Project 1 - Coming Soon!</h2>
-            </div>
+          <div className="w-full aspect-[16/9] overflow-hidden rounded-lg">
+            <img 
+              src="/images/coming-soon.jpg" 
+              alt="Project 1" 
+              className="w-full h-full object-cover object-center"
+            />
           </div>
         </div>
-      </section>
+        <div ref={project2Ref} className="p-10">
+          <div>
+            <h2 className="text-xl font-semibold pb-2">Project 2 - My Portfolio</h2>
+          </div>
+          <div className="w-full aspect-[16/9] overflow-hidden rounded-lg">
+            <img 
+              src="/images/project-portfolio.png" 
+              alt="Project 2" 
+              className="w-full h-full object-cover object-center"
+            />
+          </div>
+        </div>
+        <div ref={project3Ref} className="p-10">
+          <div>
+            <h2 className="text-xl font-semibold pb-2">Project 3 - My Homelab</h2>
+          </div>
+          <div className="w-full aspect-[16/9] overflow-hidden rounded-lg">
+            <img 
+              src="/images/server.png" 
+              alt="Project 3" 
+              className="w-full h-full object-cover object-center"
+            />
+          </div>
+        </div>
+      </div>
     </section>
   );
 };

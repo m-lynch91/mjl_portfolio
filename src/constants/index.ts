@@ -5,7 +5,6 @@ import { Word } from "../types/Word"
 import { Image } from "../types/Image"
 import { ExperienceCard } from "../types/ExperienceCard";
 import { Testimonial } from "../types/Testimonial";
-import { Social } from "../types/Social";
 
 const mobileScreenSize = 768; // px
 const tabletScreenSize = 1024; // px

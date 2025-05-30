@@ -5,7 +5,6 @@ import About from "./sections/About"
 import Home from "./sections/Home"
 import Projects from "./sections/Projects"
 import Skills from "./sections/Skills"
-import Testimonials from "./sections/Testimonials"
 
 const App = () => {
     return (
@@ -16,7 +15,6 @@ const App = () => {
             <Projects/>
             <Experience/>
             <Skills/>
-            {/* <Testimonials/> */}
             <Contact/>
         </>
     )

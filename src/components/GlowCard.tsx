@@ -1,5 +1,4 @@
 import { PropsWithChildren, useRef } from "react";
-import { ExperienceCard } from "../types/ExperienceCard";
 
 // allow child elements
 interface GCProps extends PropsWithChildren {

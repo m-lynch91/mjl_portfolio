@@ -160,9 +160,10 @@ const expCards: ExperienceCard[] = [
 		title: "Software Developer, Programmer Analyst",
 		date: "December 2024 - May 2025",
 		responsibilities: [
-			"Designed and executed Oracle database schema modifications using Data Definition Language (DDL) changes, ensuring backward compatibility and supporting new feature deployments.",
-			"Restored reliable data persistence and validation error visibility, achieving consistent form feedback, by refactoring JSF pages and Java EE beans",
-			"Designed intuitive front-end features by collaborating with stakeholders to translate business needs into clear technical and UX requirements.",
+			"Resolved longstanding high priority feature requests, by designing intuitive user centric changes for the RCMP’s Missing Children, Persons, and Unidentified Remains (MCPUR) legacy enterprise web application, addressing complex server-side rendering logic, while building re-usable UIs within the Java enterprise (J2EE) and Spring Boot ecosystems",
+			"Streamlined Oracle data model using Oracle SQL, introducing a new foreign-key relationship between two core tables, enabling the connection of data to the Java Enterprise (J2EE) back-end, while ensuring that data migration could occur without corrupting any of the 70,000+ records in the database",
+			"Refactored Java Server Faces (JSF) Facelet mark-up, enterprise JavaBeans and Hibernate code to add new UI components, enhancing agents’ access to critical data",
+			"Cultivated strong client partnerships through regular 1:1 feedback sessions and cross-functional sprint meetings, ensuring requirements were met on-spec and on-time"
 		],
 	},
 	{
@@ -171,9 +172,9 @@ const expCards: ExperienceCard[] = [
 		title: "Software Developer, Junior Programmer Analyst",
 		date: "September 2023 - December 2024",
 		responsibilities: [
-			"Collaborated with Technical Advisor to design and implement a REST API to modernize Missing Children, Persons, and Unidentified Remains application using Spring Boot.",
-			"Reduced JasperReport object memory consumption, enabling much larger exports without failures, by refactoring JasperReport templates.",
-			"Addressed UAT feedback with rapid fixes, ensuring School Action For Emergencies milestone release was delivered on schedule.",
+			"Engineered a memory‑efficient PDF generation solution for the RCMP’s School Action For Emergencies enterprise web application by modularizing JasperReports templates and integrating a virtualizer, enabling large‑school reports that previously failed with memory errors",
+			"Co‑designed and implemented a Spring Boot REST API on an in‑memory H2 database, laying groundwork for RCMP Missing Children, Persons, and Unidentified Remains (MCPUR) application modernization roadmap",
+			"Turned around UAT feedback with agile fixes, ensuring the School Action For Emergencies release met its milestone on schedule and maintained stakeholder confidence",
 		],
 	},
 	{
@@ -182,9 +183,10 @@ const expCards: ExperienceCard[] = [
 		title: "Junior Software Developer",
 		date: "January 2023 - April 2023",
 		responsibilities: [
-			"Implemented REST API endpoints in C# / .NET, facilitating seamless communication between the front-end and back-end services.",
-			"Wrote SQL scripts for data processing, resolving priority JIRA tickets and improving Business Analyst workflow.",
-			"Delivered code updates through Azure DevOps, incorporating peer feedback to maintain high code quality and adherence to best practices."
+			"Conducted essential maintenance, by developing efficient solutions for an international customs brokerage legacy enterprise web application, addressing bugs in a complex microservice architecture, leveraging C# and .NET technologies",
+			"Built reusable Blazor / Radzen front end components and integrated C# / .NET API endpoints for the new enterprise web app",
+			"Authored and optimized SQL scripts using SQL Server, resolving high priority JIRA tickets and fulfilling Business Analyst requirements for successfully and atomically updating data",
+			"Researched alternative PDF generation libraries and performed cost benefit analysis, validating the existing free solution met business needs, avoiding the need for spending $1,000s on proprietary third-party solutions"
 		],
 	},
 

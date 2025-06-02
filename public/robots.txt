@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /node_modules/
+Disallow: /src/
+Disallow: /.git/
+Disallow: /package.json
+Disallow: /package-lock.json
+Disallow: /README.md
+
+Allow: /
+
+Sitemap: https://micheallynch.org/sitemap.xml

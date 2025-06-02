@@ -2,7 +2,8 @@ MJL Portfolio
 
 Welcome to the public repository of my personal portfolio website — built with React, TypeScript, and Vite, styled using Tailwind CSS, and animated with GSAP.
 
-🌐 Live Site: [https:](https://micheallynch.org/)
+🌐 Live Site: [micheallynch.org](https://micheallynch.org/)
+
 🚀 Tech Stack
 
     Frontend Framework: React

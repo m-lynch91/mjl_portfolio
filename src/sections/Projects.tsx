@@ -56,7 +56,7 @@ const Projects = () => {
           <div>
             <h2 className="text-xl font-semibold pb-2">Project 1 - My Homelab</h2>
           </div>
-          <div className="w-full aspect-[16/9] overflow-hidden rounded-lg">
+          <div className="w-full aspect-full overflow-hidden rounded-lg">
             <img 
               src="/images/server.png" 
               alt="Project 1" 
@@ -68,7 +68,7 @@ const Projects = () => {
           <div>
             <h2 className="text-xl font-semibold pb-2">Project 2 - My Portfolio</h2>
           </div>
-          <div className="w-full aspect-[16/9] overflow-hidden rounded-lg">
+          <div className="w-full aspect-full overflow-hidden rounded-lg">
             <img 
               src="/images/project-portfolio.png" 
               alt="Project 2" 
@@ -80,9 +80,9 @@ const Projects = () => {
           <div>
             <h2 className="text-xl font-semibold pb-2">Project 3 - BiteLog API</h2>
           </div>
-          <div className="w-full aspect-[16/9] overflow-hidden rounded-lg">
+          <div className="w-full aspect-full overflow-hidden rounded-lg">
             <img 
-              src="/images/coming-soon.jpg" 
+              src="/images/bitelog-api.png" 
               alt="Project 3" 
               className="w-full h-full object-cover object-center"
             />

@@ -47,11 +47,6 @@ const Home = () => {
               </h1>
               <h1>into Real Projects</h1>
             </div>
-            <Button
-              text="See my work"
-              className="md:w-80 md:h-16 w-60 h-12"
-              id="projects"
-            />
           </div>
         </header>
       </div>

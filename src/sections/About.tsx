@@ -1,10 +1,12 @@
+import TitleHeader from "../components/TitleHeader";
 import { abilities } from "../constants";
 
 const About = () => {
   return (
-    <section id="about" className="w-full min-h-screen py-20">
-      <div className="flex flex-col max-w-[1240px] w-screen m-auto md:grid grid-rows-2">
-        <div className="md:flex md:flex-row md:m-auto py-15">
+    <section id="about" className="w-full min-h-screen py-30">
+      <TitleHeader title="About Me"/>
+      <div className="flex flex-col max-w-[1240px] w-screen m-auto">
+        <div className="md:flex md:flex-row md:m-auto py-5">
           {abilities.map((item) => (
             <div
               key={item.title}
@@ -21,7 +23,7 @@ const About = () => {
           ))}
         </div>
         <div className="grid grid-rows-3 p-10 gap-10">
-          <p className="text-2xl">
+          <p className="text-xl">
             I'm a full-stack software developer with over 2 years of
             professional software development experience and over 5 years of
             quality assurance experience. I have a proven track record of
@@ -30,7 +32,7 @@ const About = () => {
             passionate about solving problems across every layer of the tech
             stack.
           </p>
-          <p className="text-2xl">
+          <p className="text-xl">
             Expertise in developing application front-ends by programming in
             JavaScript and TypeScript with React. Specialized in programming in
             Java with Spring Boot, C# with .NET, and NodeJs to create RESTful
@@ -38,7 +40,7 @@ const About = () => {
             creating, modifying, and streamlining relational SQL and document
             based NoSQL database schema.
           </p>
-          <p className="text-2xl">
+          <p className="text-xl">
             With a career of quality assurance behind me and a strong academic
             background in computer science, I am passionate about mastering
             different technologies. I am proficient in multi-layered

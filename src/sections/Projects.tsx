@@ -2,6 +2,7 @@ import { useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
+import TitleHeader from "../components/TitleHeader";
 
 /** Must register plugin for gsap to know how to apply scroll related animation behaviour */
 gsap.registerPlugin(ScrollTrigger);
@@ -47,16 +48,17 @@ const Projects = () => {
     <section
       id="projects"
       ref={sectionRef}
-      className="w-full min-h-screen py-20"
+      className="w-full min-h-screen py-20 md:p-20"
     >
+      <TitleHeader title="Projects"/>
       <div className="md:grid md:grid-cols-2 p-10">
         <div ref={project1Ref} className="p-10">
           <div>
-            <h2 className="text-xl font-semibold pb-2">Project 1 - Coming Soon!</h2>
+            <h2 className="text-xl font-semibold pb-2">Project 1 - My Homelab</h2>
           </div>
           <div className="w-full aspect-[16/9] overflow-hidden rounded-lg">
             <img 
-              src="/images/coming-soon.jpg" 
+              src="/images/server.png" 
               alt="Project 1" 
               className="w-full h-full object-cover object-center"
             />
@@ -76,11 +78,11 @@ const Projects = () => {
         </div>
         <div ref={project3Ref} className="p-10">
           <div>
-            <h2 className="text-xl font-semibold pb-2">Project 3 - My Homelab</h2>
+            <h2 className="text-xl font-semibold pb-2">Project 3 - BiteLog API</h2>
           </div>
           <div className="w-full aspect-[16/9] overflow-hidden rounded-lg">
             <img 
-              src="/images/server.png" 
+              src="/images/coming-soon.jpg" 
               alt="Project 3" 
               className="w-full h-full object-cover object-center"
             />

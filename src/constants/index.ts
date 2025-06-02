@@ -8,7 +8,7 @@ import { Testimonial } from "../types/Testimonial";
 
 const mobileScreenSize = 768; // px
 const tabletScreenSize = 1024; // px
-const linkedInProfile = "https://www.linkedin.com/in/micheal-lynch-261938223/";
+const linkedInProfile = "https://www.linkedin.com/in/micheal-lynch/";
 const githubProfile = "https://github.com/m-lynch91"
 
 const navLinks: NavLink[] = [
@@ -127,6 +127,10 @@ const techStackImgs: Image[] = [
 		imgPath: "/images/logos/javascript.png",
 	},
 	{
+		name: "TYPESCRIPT",
+		imgPath: "/images/logos/typescript.png",
+	},
+	{
 		name: "NODE JS",
 		imgPath: "/images/logos/node.png",
 	},
@@ -163,20 +167,22 @@ const expCards: ExperienceCard[] = [
 			"Resolved longstanding high priority feature requests, by designing intuitive user centric changes for the RCMP’s Missing Children, Persons, and Unidentified Remains (MCPUR) legacy enterprise web application, addressing complex server-side rendering logic, while building re-usable UIs within the Java enterprise (J2EE) and Spring Boot ecosystems",
 			"Streamlined Oracle data model using Oracle SQL, introducing a new foreign-key relationship between two core tables, enabling the connection of data to the Java Enterprise (J2EE) back-end, while ensuring that data migration could occur without corrupting any of the 70,000+ records in the database",
 			"Refactored Java Server Faces (JSF) Facelet mark-up, enterprise JavaBeans and Hibernate code to add new UI components, enhancing agents’ access to critical data",
-			"Cultivated strong client partnerships through regular 1:1 feedback sessions and cross-functional sprint meetings, ensuring requirements were met on-spec and on-time"
-		],
-	},
-	{
-		imgPath: "/images/exp1.png",
-		logoPath: "/images/rcmp-logo1.png",
-		title: "Software Developer, Junior Programmer Analyst",
-		date: "September 2023 - December 2024",
-		responsibilities: [
+			"Cultivated strong client partnerships through regular 1:1 feedback sessions and cross-functional sprint meetings, ensuring requirements were met on-spec and on-time",
 			"Engineered a memory‑efficient PDF generation solution for the RCMP’s School Action For Emergencies enterprise web application by modularizing JasperReports templates and integrating a virtualizer, enabling large‑school reports that previously failed with memory errors",
 			"Co‑designed and implemented a Spring Boot REST API on an in‑memory H2 database, laying groundwork for RCMP Missing Children, Persons, and Unidentified Remains (MCPUR) application modernization roadmap",
-			"Turned around UAT feedback with agile fixes, ensuring the School Action For Emergencies release met its milestone on schedule and maintained stakeholder confidence",
 		],
 	},
+	// {
+	// 	imgPath: "/images/exp1.png",
+	// 	logoPath: "/images/rcmp-logo1.png",
+	// 	title: "Software Developer, Junior Programmer Analyst",
+	// 	date: "September 2023 - December 2024",
+	// 	responsibilities: [
+	// 		"Engineered a memory‑efficient PDF generation solution for the RCMP’s School Action For Emergencies enterprise web application by modularizing JasperReports templates and integrating a virtualizer, enabling large‑school reports that previously failed with memory errors",
+	// 		"Co‑designed and implemented a Spring Boot REST API on an in‑memory H2 database, laying groundwork for RCMP Missing Children, Persons, and Unidentified Remains (MCPUR) application modernization roadmap",
+	// 		"Turned around UAT feedback with agile fixes, ensuring the School Action For Emergencies release met its milestone on schedule and maintained stakeholder confidence",
+	// 	],
+	// },
 	{
 		imgPath: "/images/exp2.png",
 		logoPath: "/images/buckland-logo1.png",

@@ -6,7 +6,7 @@ const Skills = () => {
     <section id="skills" className="full-section">
       <div className="w-full min-h-screen py-50">
         <div>
-          <TitleHeader title="My Tech Stack" sub="Skills" />
+          <TitleHeader title="My Tech Stack"/>
 
           <div className="max-w-[1240px] w-screen m-auto grid md:grid-cols-2 lg:grid-cols-4 gap-8 p-10">
             {techStackImgs.map((icon) => (

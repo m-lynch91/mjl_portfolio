@@ -25,12 +25,11 @@ const Experience = () => {
 
   return (
     <section id="experience" className="w-full min-h-screen py-20">
-      <TitleHeader title="My Experience" sub="Career Path" />
-
-      <div className="max-w-[1240px] w-screen m-auto grid grid-rows-3 gap-10 p-10">
+      <TitleHeader title="Experience"/>
+      <div className="max-w-[1240px] w-screen m-auto grid auto-rows-auto gap-10 p-10">
         {expCards.map((card) => (
           <div key={card.title} className="card-border rounded-xl p-8">
-            <div className="expText flex flex-col md:flex-row gap-8">
+            <div className="flex flex-col md:flex-row gap-8">
               <div className="md:w-24 w-16">
                 <img src={card.logoPath} alt="logo" className="w-full" />
               </div>

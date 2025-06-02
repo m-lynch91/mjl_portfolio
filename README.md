@@ -1,54 +1,80 @@
-# React + TypeScript + Vite
+MJL Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the public repository of my personal portfolio website — built with React, TypeScript, and Vite, styled using Tailwind CSS, and animated with GSAP.
 
-Currently, two official plugins are available:
+🌐 Live Site: [https:](https://micheallynch.org/)
+🚀 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+    Frontend Framework: React
 
-## Expanding the ESLint configuration
+    Language: TypeScript
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+    Build Tool: Vite
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+    Styling: Tailwind CSS
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+    Animations: GSAP (GreenSock Animation Platform)
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+    Hosting: Cloudflare Pages
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+    Domain: Custom domain via Cloudflare DNS
+
+📸 Features
+
+    Clean and minimal responsive design
+
+    Smooth animations with GSAP
+
+    Modular and scalable codebase
+
+    Mobile-first development
+
+    Deployed using Cloudflare Pages with automatic CI from main branch
+
+📁 Project Structure
+
+mjl_portfolio/
+├── public/               # Static assets
+├── src/
+│   ├── assets/           # Image and media files
+│   ├── components/       # Reusable UI components
+│   ├── sections/         # Main page sections (About, Projects, Contact, etc.)
+│   ├── styles/           # Tailwind configuration and custom styles
+│   └── main.tsx          # App entry point
+├── index.html            # HTML template
+├── tailwind.config.ts    # Tailwind CSS config
+├── vite.config.ts        # Vite build config
+└── ...
+
+🛠️ Development
+Prerequisites
+
+    Node.js (v18+ recommended)
+
+    npm or yarn
+
+Getting Started
+
+# Clone the repo
+git clone https://github.com/m-lynch91/mjl_portfolio.git
+cd mjl_portfolio
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+Build for Production
+
+npm run build
+
+Preview Production Build
+
+npm run preview
+
+📬 Contact
+
+If you'd like to connect:
+
+    💼 LinkedIn - https://www.linkedin.com/in/micheal-lynch/

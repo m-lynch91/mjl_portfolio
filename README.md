@@ -34,6 +34,7 @@ Welcome to the public repository of my personal portfolio website — built with
 
 📁 Project Structure
 
+```
 mjl_portfolio/
 ├── public/               # Static assets
 ├── src/
@@ -46,6 +47,7 @@ mjl_portfolio/
 ├── tailwind.config.ts    # Tailwind CSS config
 ├── vite.config.ts        # Vite build config
 └── ...
+```
 
 🛠️ Development
 Prerequisites

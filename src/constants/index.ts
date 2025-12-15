@@ -131,8 +131,8 @@ const techStackImgs: Image[] = [
 		imgPath: "/images/logos/typescript.png",
 	},
 	{
-		name: "NODE JS",
-		imgPath: "/images/logos/node.png",
+		name: "ANGULAR",
+		imgPath: "/images/logos/angular.png",
 	},
 	{
 		name: "REACT",
@@ -143,8 +143,8 @@ const techStackImgs: Image[] = [
 		imgPath: "/images/logos/tailwind.png",
 	},
 	{
-		name: "MYSQL",
-		imgPath: "/images/logos/mysql.png",
+		name: "POSTGRES",
+		imgPath: "/images/logos/postgres.png",
 	},
 	{
 		name: "GIT",
@@ -158,11 +158,24 @@ const techStackImgs: Image[] = [
 ]
 
 const expCards: ExperienceCard[] = [
-	{
+		{
+		
 		imgPath: "/images/exp1.png",
+		logoPath: "/images/dndlogo.png",
+		title: "Software Developer",
+		date: "June 2025 - Current",
+		responsibilities: [
+			"Revitalized a derelict legacy Java Swing desktop application, still in active use by clients, including one of the company’s largest, by migrating the codebase from SVN to GitHub, fixing the Apache Ant build automation, and enabling other developers to pull, build, and contribute to the project to ensure rapid issue resolution",
+			"Led an effort closely monitored by executive leadership to restore build capability for a legacy application by modernizing its Moneris API integration, reconfiguring dependency management to use internal Artifactory, and re-establishing CI/CD in Azure DevOps, enabling renewed testing and maintenance of the system",
+			"Centralized and expanded onboarding documentation by locating fragmented resources, creating detailed setup guides, and enhancing the README.md with precise build instructions, reducing onboarding time and ensuring the team can support mission-critical client operations without disruption",
+		],
+	},
+	{
+		
+		imgPath: "/images/exp2.png",
 		logoPath: "/images/rcmp-logo1.png",
 		title: "Software Developer, Programmer Analyst",
-		date: "December 2024 - May 2025",
+		date: "September 2023 - May 2025",
 		responsibilities: [
 			"Resolved longstanding high priority feature requests, by designing intuitive user centric changes for the RCMP’s Missing Children, Persons, and Unidentified Remains (MCPUR) legacy enterprise web application, addressing complex server-side rendering logic, while building re-usable UIs within the Java enterprise (J2EE) and Spring Boot ecosystems",
 			"Streamlined Oracle data model using Oracle SQL, introducing a new foreign-key relationship between two core tables, enabling the connection of data to the Java Enterprise (J2EE) back-end, while ensuring that data migration could occur without corrupting any of the 70,000+ records in the database",
@@ -184,7 +197,7 @@ const expCards: ExperienceCard[] = [
 	// 	],
 	// },
 	{
-		imgPath: "/images/exp2.png",
+		imgPath: "/images/exp3.png",
 		logoPath: "/images/buckland-logo1.png",
 		title: "Junior Software Developer",
 		date: "January 2023 - April 2023",

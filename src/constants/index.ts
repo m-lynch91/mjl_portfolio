@@ -46,7 +46,7 @@ const words: Word[] = [
 ];
 
 const counterItems: CounterItem[] = [
-	{ value: 2, suffix: "+", label: "Years of Software Development Experience" },
+	{ value: 2.5, suffix: "+", label: "Years of Software Development Experience" },
 	{ value: 5, suffix: "+", label: "Enterprise Web Applications" },
 	{ value: 9, suffix: "+", label: "Years of Technical Expertise" },
 ]
@@ -165,6 +165,7 @@ const expCards: ExperienceCard[] = [
 		title: "Software Developer",
 		date: "June 2025 - Current",
 		responsibilities: [
+			"Performed root cause analysis on a deployment issue causing excessive AWS CloudWatch logging by analyzing log events and safely remediating a WebLogic Java Message Service (JMS) queue, reducing daily cloud costs from over $150CAD back to $20CAD",
 			"Revitalized a derelict legacy Java Swing desktop application, still in active use by clients, including one of the company’s largest, by migrating the codebase from SVN to GitHub, fixing the Apache Ant build automation, and enabling other developers to pull, build, and contribute to the project to ensure rapid issue resolution",
 			"Led an effort closely monitored by executive leadership to restore build capability for a legacy application by modernizing its Moneris API integration, reconfiguring dependency management to use internal Artifactory, and re-establishing CI/CD in Azure DevOps, enabling renewed testing and maintenance of the system",
 			"Centralized and expanded onboarding documentation by locating fragmented resources, creating detailed setup guides, and enhancing the README.md with precise build instructions, reducing onboarding time and ensuring the team can support mission-critical client operations without disruption",
@@ -185,17 +186,6 @@ const expCards: ExperienceCard[] = [
 			"Co‑designed and implemented a Spring Boot REST API on an in‑memory H2 database, laying groundwork for RCMP Missing Children, Persons, and Unidentified Remains (MCPUR) application modernization roadmap",
 		],
 	},
-	// {
-	// 	imgPath: "/images/exp1.png",
-	// 	logoPath: "/images/rcmp-logo1.png",
-	// 	title: "Software Developer, Junior Programmer Analyst",
-	// 	date: "September 2023 - December 2024",
-	// 	responsibilities: [
-	// 		"Engineered a memory‑efficient PDF generation solution for the RCMP’s School Action For Emergencies enterprise web application by modularizing JasperReports templates and integrating a virtualizer, enabling large‑school reports that previously failed with memory errors",
-	// 		"Co‑designed and implemented a Spring Boot REST API on an in‑memory H2 database, laying groundwork for RCMP Missing Children, Persons, and Unidentified Remains (MCPUR) application modernization roadmap",
-	// 		"Turned around UAT feedback with agile fixes, ensuring the School Action For Emergencies release met its milestone on schedule and maintained stakeholder confidence",
-	// 	],
-	// },
 	{
 		imgPath: "/images/exp3.png",
 		logoPath: "/images/buckland-logo1.png",

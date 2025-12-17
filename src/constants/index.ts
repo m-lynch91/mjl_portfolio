@@ -165,7 +165,7 @@ const expCards: ExperienceCard[] = [
 		title: "Software Developer",
 		date: "June 2025 - Current",
 		responsibilities: [
-			"Performed root cause analysis on a deployment issue causing excessive AWS CloudWatch logging by analyzing log events and safely remediating a WebLogic Java Message Service (JMS) queue, reducing daily cloud costs from over $150CAD back to $20CAD",
+			"Performed root cause analysis on a deployment issue causing excessive AWS CloudWatch logging by analyzing log events and safely remediating a WebLogic Java Message Service (JMS) queue, reducing daily cloud costs from over $120CAD back to $7CAD",
 			"Revitalized a derelict legacy Java Swing desktop application, still in active use by clients, including one of the company’s largest, by migrating the codebase from SVN to GitHub, fixing the Apache Ant build automation, and enabling other developers to pull, build, and contribute to the project to ensure rapid issue resolution",
 			"Led an effort closely monitored by executive leadership to restore build capability for a legacy application by modernizing its Moneris API integration, reconfiguring dependency management to use internal Artifactory, and re-establishing CI/CD in Azure DevOps, enabling renewed testing and maintenance of the system",
 			"Centralized and expanded onboarding documentation by locating fragmented resources, creating detailed setup guides, and enhancing the README.md with precise build instructions, reducing onboarding time and ensuring the team can support mission-critical client operations without disruption",

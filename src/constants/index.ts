@@ -163,12 +163,13 @@ const expCards: ExperienceCard[] = [
 		imgPath: "/images/exp1.png",
 		logoPath: "/images/dndlogo.png",
 		title: "Software Developer",
-		date: "June 2025 - Current",
+		date: "June 2025 - Dec 2025",
 		responsibilities: [
+			"Contributed to the development and maintenance of Dye & Durham’s flagship enterprise applications, eCore and Unity PM, working within an Agile Scrum environment and participating in sprint planning, daily stand-ups, backlog refinement, sprint reviews, and retrospectives",
+			"Collaborated cross-functionally with Software Developers, Quality Assurance (QA), and Product Management to deliver features, bug fixes, and production support across the full Software Development Lifecycle (SDLC)",
 			"Performed root cause analysis on a deployment issue causing excessive AWS CloudWatch logging by analyzing log events and safely remediating a WebLogic Java Message Service (JMS) queue, reducing daily cloud costs from over $120CAD back to $7CAD",
 			"Revitalized a derelict legacy Java Swing desktop application, still in active use by clients, including one of the company’s largest, by migrating the codebase from SVN to GitHub, fixing the Apache Ant build automation, and enabling other developers to pull, build, and contribute to the project to ensure rapid issue resolution",
 			"Led an effort closely monitored by executive leadership to restore build capability for a legacy application by modernizing its Moneris API integration, reconfiguring dependency management to use internal Artifactory, and re-establishing CI/CD in Azure DevOps, enabling renewed testing and maintenance of the system",
-			"Centralized and expanded onboarding documentation by locating fragmented resources, creating detailed setup guides, and enhancing the README.md with precise build instructions, reducing onboarding time and ensuring the team can support mission-critical client operations without disruption",
 		],
 	},
 	{
@@ -180,10 +181,9 @@ const expCards: ExperienceCard[] = [
 		responsibilities: [
 			"Resolved longstanding high priority feature requests, by designing intuitive user centric changes for the RCMP’s Missing Children, Persons, and Unidentified Remains (MCPUR) legacy enterprise web application, addressing complex server-side rendering logic, while building re-usable UIs within the Java enterprise (J2EE) and Spring Boot ecosystems",
 			"Streamlined Oracle data model using Oracle SQL, introducing a new foreign-key relationship between two core tables, enabling the connection of data to the Java Enterprise (J2EE) back-end, while ensuring that data migration could occur without corrupting any of the 70,000+ records in the database",
-			"Refactored Java Server Faces (JSF) Facelet mark-up, enterprise JavaBeans and Hibernate code to add new UI components, enhancing agents’ access to critical data",
-			"Cultivated strong client partnerships through regular 1:1 feedback sessions and cross-functional sprint meetings, ensuring requirements were met on-spec and on-time",
 			"Engineered a memory‑efficient PDF generation solution for the RCMP’s School Action For Emergencies enterprise web application by modularizing JasperReports templates and integrating a virtualizer, enabling large‑school reports that previously failed with memory errors",
 			"Co‑designed and implemented a Spring Boot REST API on an in‑memory H2 database, laying groundwork for RCMP Missing Children, Persons, and Unidentified Remains (MCPUR) application modernization roadmap",
+			"Turned around UAT feedback with agile fixes, ensuring the School Action For Emergencies release met its milestone on schedule and maintained stakeholder confidence"
 		],
 	},
 	{
